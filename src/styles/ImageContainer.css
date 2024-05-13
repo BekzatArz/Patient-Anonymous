@@ -5,12 +5,12 @@
 
 .imageContainer {
     height: 512px;
-    overflow-y: auto; /* Показывать вертикальный скролл, если контент превышает высоту контейнера */
+    overflow-y: hidden;
     display: flex;
     flex-direction: column;
     background-color: black;
     color: aliceblue;
-    width: 532px;
+    width: 512px;
     overflow-x: hidden;
   }
   

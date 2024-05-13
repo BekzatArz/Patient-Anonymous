@@ -1,20 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 .app {
-    width: 1400px;
+    margin: 0 auto;
     color: black;
     margin: 0 auto;
     font-family: Inter;
-    background-color: rgb(226, 226, 226);
+    background-color: aliceblue;
     padding: 20px;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width: 90%;
 }
 
-@media(max-width: 1500px) {
-    .app {
-        width: 1000px;
-    }
-}
