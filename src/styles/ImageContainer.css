@@ -1,0 +1,22 @@
+.container {
+    height: 512px; /* Высота контейнера */
+    width: auto;
+}
+
+.imageContainer {
+    height: 512px;
+    overflow-y: auto; /* Показывать вертикальный скролл, если контент превышает высоту контейнера */
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: aliceblue;
+    width: 532px;
+    overflow-x: hidden;
+  }
+  
+  .imageContainer img {
+    height: 512px;
+    width: max-content;
+  }
+
+
