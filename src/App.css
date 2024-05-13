@@ -5,7 +5,7 @@
     color: black;
     margin: 0 auto;
     font-family: Inter;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     padding: 20px;
     border-radius: 15px;
     display: flex;
@@ -14,3 +14,16 @@
     width: 90%;
 }
 
+.container {
+    display: flex;
+    margin-left: 48px;
+}
+.info{
+    margin-left: 48px;
+}
+.pagination {
+    margin-left: 48px;
+}
+.addImage{
+    margin-left: 48px;
+}

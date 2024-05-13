@@ -8,7 +8,7 @@ import '../App.css';
 
 const IMAGES_PER_PAGE = 903; // Количество изображений на одной странице
 
-const Series501 = () => {
+const Series501 = ({hyppo}) => {
   const [images, setImages] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   
@@ -46,6 +46,7 @@ const Series501 = () => {
       <Info />
       <div className="container">
         <ImageContainer images={getCurrentPageImages()} />
+        <img src={hyppo} alt="" />
       </div>
       <AddImage />
       {/* Добавьте кнопки для перехода на предыдущую и следующую страницы */}

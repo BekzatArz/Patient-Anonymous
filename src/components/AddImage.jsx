@@ -2,7 +2,7 @@ import React from 'react'
 
 const AddImage = () => {
   return (
-    <div>AddImage</div>
+    <div className='addImage'>AddImage</div>
   )
 }
 
